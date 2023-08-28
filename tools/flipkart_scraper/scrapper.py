@@ -1,7 +1,9 @@
 import re
-import requests
+
 import pandas as pd
+import requests
 from bs4 import BeautifulSoup
+
 RUPEE_AMOUNT_REGEX = r"(?:₹\d+.\d+)"
 
 def get_search_url(search_term):

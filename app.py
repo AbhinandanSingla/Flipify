@@ -1,5 +1,5 @@
-from chainlit import make_async
 import chainlit as cl
+from chainlit import make_async
 from chainlit.input_widget import Slider, Select, Switch
 
 from model import agent_executor

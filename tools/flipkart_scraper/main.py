@@ -1,7 +1,7 @@
+from product import Product
 from scrapper import (search_products,
                       dataframe_to_object
                       )
-from product import Product
 
 searched_products = []
 df = search_products("Red kurta with pant")
